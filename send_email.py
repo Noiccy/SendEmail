@@ -29,7 +29,7 @@ message['Subject'] = title
 '''
 需要添加附件
 '''
-reportPath = 'file path'
+reportPath = 'file path' #附件路径
 with open(reportPath) as f:
     mail_body = f.read()
 
